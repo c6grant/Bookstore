@@ -20,7 +20,8 @@ namespace Bookstore.Migrations
                     ISBN = table.Column<string>(nullable: false),
                     Classification = table.Column<string>(nullable: false),
                     Category = table.Column<string>(nullable: false),
-                    Price = table.Column<decimal>(nullable: false)
+                    Price = table.Column<decimal>(nullable: false),
+                    PageNum = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

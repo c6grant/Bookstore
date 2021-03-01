@@ -38,6 +38,9 @@ namespace Bookstore.Models
         [Required(ErrorMessage = "Please enter the Price")]
         public decimal Price { get; set; }
 
+        [Required(ErrorMessage = "Please enter the page number")]
+        public int PageNum { get; set; }
+
         
     }
 }

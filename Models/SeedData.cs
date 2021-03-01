@@ -34,7 +34,8 @@ namespace Bookstore.Models
                         ISBN = "978-0451419439",
                         Classification = "Fiction",
                         Category = "Classic",
-                        Price = 9.95m
+                        Price = 9.95m,
+                        PageNum = 1488
                     },
 
                     new Book
@@ -47,7 +48,9 @@ namespace Bookstore.Models
                         ISBN = "978-0743270755",
                         Classification = "Non-Fiction",
                         Category = "Biography",
-                        Price = 14.58m
+                        Price = 14.58m,
+                        PageNum = 944
+
                     },
 
                     new Book
@@ -60,7 +63,9 @@ namespace Bookstore.Models
                         ISBN = "978-0553384611",
                         Classification = "Non-Fiction",
                         Category = "Biography",
-                        Price = 21.54m
+                        Price = 21.54m,
+                        PageNum = 832
+
                     },
 
                     new Book
@@ -73,7 +78,9 @@ namespace Bookstore.Models
                         ISBN = "978-0812981254",
                         Classification = "Non-Fiction",
                         Category = "Biography",
-                        Price = 11.61m
+                        Price = 11.61m,
+                        PageNum = 864
+
                     },
 
                     new Book
@@ -86,7 +93,9 @@ namespace Bookstore.Models
                         ISBN = "978-0812974492",
                         Classification = "Non-Fiction",
                         Category = "Historical",
-                        Price = 13.33m
+                        Price = 13.33m,
+                        PageNum = 528
+
                     },
 
                     new Book
@@ -99,7 +108,9 @@ namespace Bookstore.Models
                         ISBN = "978-0804171281",
                         Classification = "Fiction",
                         Category = "Historical Fiction",
-                        Price = 15.95m
+                        Price = 15.95m,
+                        PageNum = 288
+
                     },
 
                     new Book
@@ -112,7 +123,9 @@ namespace Bookstore.Models
                         ISBN = "978-1455586691",
                         Classification = "Non-Fiction",
                         Category = "Self-Help",
-                        Price = 14.99m
+                        Price = 14.99m,
+                        PageNum = 304
+
                     },
 
                     new Book
@@ -125,7 +138,9 @@ namespace Bookstore.Models
                         ISBN = "978-1455523023",
                         Classification = "Non-Fiction",
                         Category = "Self-Help",
-                        Price = 21.66m
+                        Price = 21.66m,
+                        PageNum = 240
+
                     },
 
                     new Book
@@ -138,7 +153,9 @@ namespace Bookstore.Models
                         ISBN = "978-1591847984",
                         Classification = "Non-Fiction",
                         Category = "Business",
-                        Price = 29.16m
+                        Price = 29.16m,
+                        PageNum = 400
+
                     },
 
                     new Book
@@ -151,9 +168,13 @@ namespace Bookstore.Models
                         ISBN = "978-0553393613",
                         Classification = "Fiction",
                         Category = "Thrillers",
-                        Price = 15.03m
+                        Price = 15.03m,
+                        PageNum = 642
+
                     }
 
+
+     
 
 
 
