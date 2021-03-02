@@ -16,7 +16,7 @@ namespace Bookstore.Controllers
 
         private IProjectRepository _repository;
 
-        public int PageSize = 2;
+        public int PageSize = 5;
 
         public HomeController(ILogger<HomeController> logger, IProjectRepository repository)
         {

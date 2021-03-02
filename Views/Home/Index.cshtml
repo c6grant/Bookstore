@@ -4,17 +4,9 @@
 
 @model BookListViewModel
 
-<header>
-    <div class="text-center">
-        <h1>Welcome to the bookstore!</h1>
-    </div>
-    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-</header>
-
-
 
 <table class="table table-dark table-striped table-hover">
-    <thead class="thead-light">
+    <thead class="thead-light table-bordered table-condensed">
         <tr>
             <th scope="col">#</th>
             <th scope="col">Title</th>
@@ -27,17 +19,14 @@
             <th scope="col">Category</th>
             <th scope="col">Price</th>
             <th scope="col">PageNumber</th>
-
         </tr>
     </thead>
-
-
     <tbody>
         @foreach (var x in Model.Books)
         {
             <tr>
                 <th>@x.BookId</th>
-                <th>@x.Title</th>
+                <td>@x.Title</td>
                 <td>@x.AuthorFirst</td>
                 <td>@x.AuthorMiddle</td>
                 <td>@x.AuthorLast</td>
@@ -47,18 +36,16 @@
                 <td>@x.Category</td>
                 <td>$@x.Price</td>
                 <td>@x.PageNum</td>
-
             </tr>
-        }
-
-        
+        } 
     </tbody>
-   
 </table>
 <br />
 <br />
-<br />
-<br />
 
-<div page-model="@Model.PagingInfo" page-action="Index"></div>
+
+<div page-model="@Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="btn"
+     page-class-normal="btn-outline-dark"
+     page-class-selected="btn-primary"
+     class="btn-group pull-right m-1"></div>
 

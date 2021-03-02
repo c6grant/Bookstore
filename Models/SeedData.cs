@@ -171,10 +171,53 @@ namespace Bookstore.Models
                         Price = 15.03m,
                         PageNum = 642
 
+                    },
+
+                    new Book
+                    {
+                        Title = "Enders Game",
+                        AuthorFirst = "Orson",
+                        AuthorMiddle = "Scott",
+                        AuthorLast = "Card",
+                        Publisher = "Tor Books",
+                        ISBN = "978-0765370624",
+                        Classification = "Fiction",
+                        Category = "Science Fiction",
+                        Price = 7.99m,
+                        PageNum = 324
+
+                    },
+
+                    new Book
+                    {
+                        Title = "The Hunger Games",
+                        AuthorFirst = "Suzanne",
+                        AuthorMiddle = "",
+                        AuthorLast = "Collins",
+                        Publisher = "Scholastic Corporation",
+                        ISBN = "978-0439023481",
+                        Classification = "Adventure",
+                        Category = "Science Fiction",
+                        Price = 10.00m,
+                        PageNum = 374
+
+                    },
+
+                    new Book
+                    {
+                        Title = "Harry Potter and the Order of the Phoenix",
+                        AuthorFirst = "J.",
+                        AuthorMiddle = "K.",
+                        AuthorLast = "Rowling",
+                        Publisher = "Bloomsbury",
+                        ISBN = "978-0747551003",
+                        Classification = "Fantasy",
+                        Category = "Fantasy",
+                        Price = 15.00m,
+                        PageNum = 870
+
                     }
 
-
-     
 
 
 
