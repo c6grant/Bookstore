@@ -6,11 +6,28 @@
     <title>@ViewData["Title"] - Bookstore</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://kit.fontawesome.com/2758b73274.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <div class="bg-dark text-white p-2">
-       <span class="navbar-brand ml-2">BOOK STORE</span>
-   </div>
+
+    <div class="bg-dark text-white p-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col navbar-brand">BOOK STORE</div>
+                <div class="col-6 text-right">
+                    <vc:cart-summary />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--
+       <div class="bg-dark text-white p-2">
+           <span class="navbar-brand ml-2">BOOK STORE</span>
+       </div>
+    -->
+
     <div class="row m-1 p-1">
         <div id="blah" class="col-2">
             <h1>Welcome to the bookstore!</h1>
@@ -25,8 +42,8 @@
 
 
 
-        
- 
+
+
 
 </body>
 </html>
